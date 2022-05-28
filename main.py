@@ -3,10 +3,10 @@ import json
 # otwieram plik json 'lang_dict.json' zawierający poszczególne alfabety
 # popracuję nad dodaniem innych  :-)
 
-with open('/home/pattom/PycharmProjects/N-grams-CLARIN-pl/lang_dict.json') as f:
+with open('/home/lang_dict.json') as f:
     data = json.load(f)
 
-file_name = '/home/pattom/PycharmProjects/N-grams-CLARIN-pl/example (kopia).txt'
+file_name = '/home/example (kopia).txt'
 # kopia pliku - dodane kilka znaków niepożądanych - *, &, #
 # w kilku pierwszych wyrazach do testów
 # ładujemy plik txt i zmieniamy wszystkie litery na małe

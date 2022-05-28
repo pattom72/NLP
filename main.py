@@ -16,7 +16,7 @@ sep = introduction_file_text.split()
 # wybieram konkretny alfabet z pliku JSONa
 alfabet = data['alfabet_pl']
 
-# sprawdzam czy każdą litera w słowie jest z alfabetu, jeśłi nie to zmieniam na spacje "  "
+# sprawdzam czy każdą litera w słowie jest z alfabetu, jeśli nie to zmieniam na spacje "  "
 # oddzielam podzielone wyrazy - jeżeli podzieli to wyraz na co najmniej dwie części
 #traktujemy je jako oddzielne wyrazy
 
